@@ -11,6 +11,7 @@ __pycache__/*
 .cache/*
 .*.swp
 */.ipynb_checkpoints/*
+*/__init__.py
 
 # Project files
 .ropeproject
@@ -40,3 +41,21 @@ docs/api/*
 docs/_build/*
 cover/*
 MANIFEST
+
+# Directories was not update by Alifer
+congresso-em-numeros/.ipynb_checkpoints
+congresso-em-numeros/airflow/*
+congresso-em-numeros/camdep/*
+congresso-em-numeros/migrate-amazon/*
+congresso-em-numeros/packages/*
+congresso-em-numeros/senado/*
+congresso-em-numeros/*.ipynb
+congresso-em-numeros/cap_congresso/*.ipynb
+congresso-em-numeros/cap_congresso/.ipynb_checkpoints/*
+congresso-em-numeros/cap_congresso/*/.ipynb_checkpoints/*
+
+
+#Secret files
+congresso-em-numeros/config_analysis.yaml
+congresso-em-numeros/config_server.yaml
+
